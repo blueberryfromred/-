@@ -38,7 +38,7 @@
     return 0;
     }
 temp 위치 바뀌면 안됨.  
-나는 temp썼음. 원래 교재의 정답  
+나는 temp썼음. 원래 교재의 정답은 아래 코드
 
     #include <stdio.h>
 
