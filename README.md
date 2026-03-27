@@ -55,7 +55,32 @@ temp 위치 바뀌면 안됨.
     }
 그냥 a,b 자리만 바꾼거임.
 -----------------------------------------------------------------
-#2일차 **입력받은 값과 합 출력**
+#2일차 **입력받아 계산3**
+첫 번째 줄에 a와 b를 곱해준 값을 출력한다.
+밑에는 내가 쓴 틀린 답^^
+
+    #include <stdio.h>
+
+    int main() {
+    int a,b;
+    printf("%d", a);
+    scanf("%d", &a);
+    printf("%d", b);
+    scanf("%d", &b);
+    printf("%d", a*b);
+    return 0;
+    }
+
+해설^^
+
+    #include <stdio.h>
+
+    int main() {
+    int a,b;
+    scanf("%d %d", &a, &b);
+    printf("%d\n", a*b);
+    return 0;
+    }
 
 
 
